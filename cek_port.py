@@ -21,7 +21,7 @@ port = list(map(int, input("Enter a multiple port or single port: ").split(","))
 
 for i in range(len(ip)):
     print("                        ")
-    print("Scanning IP:",ip[i])
+    print("Scanning :",socket.gethostbyaddr(ip[i]))
     for o in range(len(port)):
         # print(b[o])
         # print("Scanning IP",a[i], "FOR PORT:",b[o])
