@@ -1,5 +1,9 @@
 ('D:\\work\\new_port\\build\\cek_port\\PYZ-00.pyz',
- [('tracemalloc',
+ [('copy',
+   'c:\\users\\erik '
+   'laguliga\\appdata\\local\\programs\\python\\python36-32\\lib\\copy.py',
+   'PYMODULE'),
+  ('tracemalloc',
    'c:\\users\\erik '
    'laguliga\\appdata\\local\\programs\\python\\python36-32\\lib\\tracemalloc.py',
    'PYMODULE'),
@@ -38,10 +42,6 @@
   ('textwrap',
    'c:\\users\\erik '
    'laguliga\\appdata\\local\\programs\\python\\python36-32\\lib\\textwrap.py',
-   'PYMODULE'),
-  ('copy',
-   'c:\\users\\erik '
-   'laguliga\\appdata\\local\\programs\\python\\python36-32\\lib\\copy.py',
    'PYMODULE'),
   ('doctest',
    'c:\\users\\erik '

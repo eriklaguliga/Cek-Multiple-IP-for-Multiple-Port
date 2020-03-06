@@ -20,8 +20,17 @@ print("Jika innput hanya satu port cukup input :443")
 port = list(map(int, input("Enter a multiple port or single port: ").split(",")))
 
 for i in range(len(ip)):
-    print("                        ")
-    print("Scanning :",socket.gethostbyaddr(ip[i]))
+    try:
+        print("                        ")
+        # print("Scanning :",socket.gethostbyaddr(ip[i]))
+        hostname= socket.gethostbyaddr(ip[i])
+        host_to_str = str(hostname)
+        wow = host_to_str.split(",")[0]
+        # print(wow.replace('(',''))
+        print("Scanning for ip ",ip[i],"with hostname ",wow.replace('(',''))
+    except:
+        print("                        ")
+        print("can't find hostname value, but still scanning for ip: ",ip[i])
     for o in range(len(port)):
         # print(b[o])
         # print("Scanning IP",a[i], "FOR PORT:",b[o])
